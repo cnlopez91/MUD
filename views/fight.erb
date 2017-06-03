@@ -1,0 +1,13 @@
+<h1> <%= session[:name] %>, you are fighting the monster!</h1>
+
+<div>
+    <span class="health">Health: <%= session[:health] %></span>
+    <span class="monster">Monster: <%= session[:monster] %></span>
+</div>
+
+<p>
+    What would you like to do?
+</p>
+
+<a href="/attack">Attack</a>
+<a href="/begin">Get the hell out!!!</a>
